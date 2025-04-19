@@ -57,7 +57,7 @@ function BookingTabs() {
     <div className="lg:[&_.tabs-root]:flex-row">
       <Tabs defaultValue="upcoming">
         <div className="flex justify-center">
-          <TabsList className="border-b-1 rounded-none lg:px-[8vw] md:px-[5vw] px-[1vw] border-[#8B3E00]/45 justify-center bg-transparent">
+          <TabsList className="border-b-1 rounded-none px-[1vw] sm:px-[2vw] lg:px-48 md:px-28 border-[#8B3E00]/45 justify-center bg-transparent">
             <div className="flex justify-between">
               {/* Adjust space-x value as needed */}
               <TabsTrigger

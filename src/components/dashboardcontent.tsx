@@ -8,7 +8,6 @@ function DashboardContent() {
       <DashHeader/>
       <h1 className="text-2xl font-bold text-amber-900 text-left ml-6 mb-4">Bookings</h1>
       <BookingTabs/>
-      {/* <SalonBookingDashboard/> */}
     </div>
   );
 }

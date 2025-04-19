@@ -16,7 +16,7 @@ function App() {
   return (
     <SidebarProvider className="bg-[#FEFFF1] flex justify-center">
       <AppSidebar />
-      <SidebarInset className="bg-[#FEFFF1] max-w-5xl ">
+      <SidebarInset className="bg-[#FEFFF1] max-w-4xl ">
           <SidebarTrigger className="md:hidden" />
           <DashboardContent />
       </SidebarInset>
